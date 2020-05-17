@@ -10,7 +10,6 @@ exports.up = function(knex) {
     t.string('email').notNullable();
 
     t.string('user_uuid').notNullable();
-    t.foreign('user_uuid').references('uuid').inTable('users');
   });
 };
 
