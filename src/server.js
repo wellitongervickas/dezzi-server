@@ -1,12 +1,15 @@
 const app = require('./app');
 
+const port = process.env.PORT || 3000;
+const host = process.env.APP_URL;
+
 async function startServer() {
-  app.listen(process.env.SERVER_PORT || 3000, process.env.SERVER_HOST || 'localhost', (err) => {
+  app.listen(port, host, (err) => {
     if (err) {
       throw(err);
     }
 
-    console.log(`App running on: http://${process.env.SERVER_HOST}:${process.env.SERVER_PORT}`);
+    console.log(`App running on: http://${port}:${host}`);
   });
 };
 
