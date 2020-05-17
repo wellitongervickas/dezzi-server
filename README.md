@@ -1,4 +1,5 @@
 # Dezzi server (node + express + knex)
+[Heroku API](https://dezzi-server.herokuapp.com/)
 
 ## Routes
 
@@ -23,7 +24,6 @@
 | DATABASE_USER | for production | `` |
 | DATABASE_PASSWORD | for production | `` |
 | DATABASE_NAME | for production | `` |
-
 
 ## Npm Scripts
 
