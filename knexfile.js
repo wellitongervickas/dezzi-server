@@ -29,7 +29,8 @@ module.exports = {
       database : process.env.DATABASE_NAME,
     },
     migrations: {
-      tableName: 'knex_migrations'
+      directory: './src/database/migrations'
     },
+    useNullAsDefault: true,
   },
 };
