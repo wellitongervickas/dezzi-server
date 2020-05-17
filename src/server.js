@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 const host = process.env.APP_URL;
 
 async function startServer() {
-  app.listen(port, host, (err) => {
+  app.listen(port, (err) => {
     if (err) {
       throw(err);
     }
