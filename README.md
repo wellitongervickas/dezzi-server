@@ -18,12 +18,11 @@
 | PORT | | `8080` |
 | SERVER_TOKEN_SECRET | hash to encrypt token  | `` |
 | SERVER_TOKEN_EXPIRES | time to expire | `86400000` |
-
-| DATABASE_HOST | for production | `` |
-| DATABASE_URL | for production | `` |
-| DATABASE_USER | for production | `` |
-| DATABASE_PASSWORD | for production | `` |
-| DATABASE_NAME | for production | `` |
+| DATABASE_HOST | production | `` |
+| DATABASE_URL | production | `` |
+| DATABASE_USER | production | `` |
+| DATABASE_PASSWORD | production | `` |
+| DATABASE_NAME | production | `` |
 
 ## Npm Scripts
 
