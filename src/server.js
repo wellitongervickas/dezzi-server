@@ -1,7 +1,7 @@
 const app = require('./app');
 
+const host = process.env.APP_URL || 'localhost';
 const port = process.env.PORT || 3000;
-const host = process.env.APP_URL;
 
 async function startServer() {
   app.listen(port, (err) => {
@@ -9,7 +9,7 @@ async function startServer() {
       throw(err);
     }
 
-    console.log(`App running on: http://${port}:${host}`);
+    console.log(`App running on: http://${host}:${port}`);
   });
 };
 

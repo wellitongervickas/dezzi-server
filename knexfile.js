@@ -20,6 +20,7 @@ module.exports = {
     },
     useNullAsDefault: true,
   },
+
   production: {
     client: 'pg',
     connection: {
