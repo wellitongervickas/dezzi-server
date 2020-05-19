@@ -1,17 +1,13 @@
 language: node_js
-
 node_js:
-- 'stable'
-
+- stable
 cache:
   directories: node_modules
-
 script: npm test
-
 deploy:
   provider: heroku
   api_key:
-    secure: "secure-key"
+    secure: ZvvU1AUJ+E2atWc2Oit2cCKNNZts7Jv6P7W/4JFvTWK5MIf909TkCk0yyAguz+nPY1Jlp0TpMvm/uvfvlsGl/iPEx2YQUTW0YMfIqV0YK95r2mOQ7SDnFB1wcu1A4ByYE25Ava2TWBOadcvvgrRUWj/D0PRiCCaaw02GoyJllCqwesVlCrWK+7IaS7QJQCm2zsYiRd6Yk/oY5vWr7zBF2a0bquPqkxubgyb4qIRGKoJrtDXS+HrnUOd5RXgGPSJ/Cd0kBxvBc08Af2NZAZ+hZXCiOy/iZnSiYvYjZA6Xz2kx1bVw8Ug0g9ths6WF92zbXKW/sR9aDGejCM6xhq1DCV4uJpEgkb+aynx+iZEe04gNpI3d0W/hHSDckGbSY0W52vnvrYlJidNk4l0rS6C0M1AxWzBVGkF7qSAG298i+SXeufEX5eiJzHeX5dZrE5hvk9YrBK4StJb27ozN13t2JWtY9O4Jd5ddx0EWg9B71JTzlBMNXq5SOhVhC5BiBr9h3nhOoEVSJJp96XtqnoGKHjeTKz3uVdVLbgYBSFQb9joUsKj1sLzgjwcxtd8EuUuhcjQwM4kiVHC0/s3iZAaVrP3Vcgcl06ZZIZw6gM7VSNYNinCpcxsR+YD/BI3RAho2j828tpQkpCwOHT8XjyOagG5JsSvEbcnumKvmQ8sjdB4=
   app: dezzi-server
   on:
     repo: wellitongervickas/dezzi-server
