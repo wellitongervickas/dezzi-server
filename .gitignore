@@ -1,0 +1,15 @@
+.DS_Store
+node_modules
+
+# SQLite
+db.sqlite
+test.sqlite
+
+# local env files
+.env*
+
+# Log files
+npm-debug.log*
+
+# Editor directories and files
+.vscode
